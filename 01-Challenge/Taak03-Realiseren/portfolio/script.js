@@ -10,7 +10,7 @@ console.log(bezoeker);
 
 
 if (bezoeker.leeftijd >=18) {
-  koptekst.style.color= 'lightgreen';
+  koptekst.style.color= 'green';
    }
     if (bezoeker.leeftijd <18) {
        koptekst.style.color = 'red';
