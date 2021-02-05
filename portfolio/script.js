@@ -4,7 +4,7 @@ var bezoeker={
 };
 if (bezoeker.naam != null) {
    let koptekst = document.querySelector("h2");
-koptekst.innerHTML = "Welcome ! " + bezoeker.naam + " to my ";
+koptekst.innerHTML = "Welcome ! " + bezoeker.naam ;
 
 console.log(bezoeker);
 
