@@ -4,7 +4,7 @@ var bezoeker={
 };
 if (bezoeker.naam != null) {
    let koptekst = document.querySelector("h2");
-koptekst.innerHTML = "Welcome ! " + bezoeker.naam ;
+koptekst.innerHTML = "Welcome dear! " + bezoeker.naam + " to my page" ;
 
 console.log(bezoeker);
 
@@ -15,7 +15,7 @@ if (bezoeker.leeftijd >=18) {
     if (bezoeker.leeftijd <18) {
        koptekst.style.color = 'red';
        }
-        if (bezoeker.leeftijd ==0) {
+        if (bezoeker.leeftijd ==null) {
            koptekst.style.color = 'yellow';
                    }
                }
