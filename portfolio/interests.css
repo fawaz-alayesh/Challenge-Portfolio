@@ -86,7 +86,7 @@ p {
         font-family:sans-serif;
     }
     footer{
-        height: 150px;
+        height: 120px;
         display: flex;
         flex-direction: column;
         justify-content: center;

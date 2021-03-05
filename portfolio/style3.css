@@ -3,20 +3,40 @@
     body {
       background-color: blue;
     }
-    .tab{
-       position: relative;
-        left:30px ;
-        bottom: -40px;
-        background-color: #df230a;
-     
-    }
+   
   }
   
   /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     body {
       background-color: olive;
     }
+    .tab{
+      position: relative;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+       left:2% ;
+       bottom: -40px;
+       background-color: #df230a;
+    
+   }
+   input{
+     width: 30px;
+     height:-8px;
+     font-size: 10px;
+     font-weight: bold;
+     color: #ffffff;
+     background-color: #383735;
+     border-radius: 12px 12px;
+     border: none;
+ }
+ .screen{
+   width: 200px;
+   height: 30px;
+   background-color: #3837358f;
+
+}
   }
 input{
     width: 80px;
