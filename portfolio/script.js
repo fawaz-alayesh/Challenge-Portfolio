@@ -25,7 +25,7 @@ if (bezoeker.leeftijd >=18) {
                }
 <<<<<<< HEAD
 ///snow effect
-               var c = document.getElementById('canv'), 
+            /*   var c = document.getElementById('canv'), 
                $ = c.getContext("2d");
            var w = c.width = window.innerWidth, 
                h = c.height = window.innerHeight;
@@ -76,10 +76,10 @@ if (bezoeker.leeftijd >=18) {
              }
            }
            /*________________________________________*/
-           window.addEventListener('resize', function(){
+          /* window.addEventListener('resize', function(){
              c.width = w = window.innerWidth;
              c.height = h = window.innerHeight;
-           }, false);
+           }, false);*/
            
            
            
