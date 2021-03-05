@@ -525,7 +525,7 @@ var Sizzle =
  * Copyright JS Foundation and other contributors
  * Released under the MIT license
  * https://js.foundation/
- *
+
  * Date: 2020-03-14
  */
 ( function( window ) {
