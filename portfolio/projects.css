@@ -17,7 +17,6 @@ text-decoration: none;
 p {
 font-family: cursive;
 color: #000000 ;
-text-transform: uppercase;
 font-size: 14px;
 text-align: center;
 
@@ -112,7 +111,7 @@ button :hover::after{
 
 }
 footer{
-  height: 150px;
+  height: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +147,7 @@ footer{
 }
 .copyright{
   color:#565555;
-  font-size: 14px;
+  font-size: 15px;
   position: absolute;
   left: 50%;
   bottom: 10px;
@@ -227,8 +226,11 @@ footer{
     font-family: cursive;
     color: #000000 ;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     
+    }
+    section{
+      height: 500px;
     }
 }

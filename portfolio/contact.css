@@ -75,7 +75,7 @@ font-weight: bold;
 color: #2d2a2a;
 }
 footer{
-    height: 150px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,4 +186,12 @@ footer{
     nav.active ul{
         display: flex !important;
     }
+    section{
+        height: 500px;
+      }
+    p{
+       font-size: 14px;
+       font-family:sans-serif;
+     }
+    
 }
