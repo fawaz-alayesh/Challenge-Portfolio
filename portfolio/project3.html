@@ -9,9 +9,9 @@
 </head>
 <body>
  <table class="tab">
-     <h1>Calculatorالة حاسبة</h1>
+     <h1>Calculatorآلة حاسبة</h1>
      <p>Spcialy for the fan of software developer-مبرمجين</p>
-    <tr><td><input class="screen" type="text" id="edu"/>
+    <tr><td><input class="screen" type="text" id="screen"/>
         </td></tr>
     <div class="buttons" name="buttons" >    
     <tr><td>
@@ -42,19 +42,19 @@
     //function for displaying values
     function dis(val)
     {
-    document.getElementById("edu").value+=val
+    document.getElementById("screen").value+=val
      }
     //function for evaluation
     function solve()
     {
-    let x = document.getElementById("edu").value
+    let x = document.getElementById("screen").value
     let y = eval(x)
-    document.getElementById("edu").value = y
+    document.getElementById("screen").value = y
     }
     //function for clearing the display
     function clr()
     {
-    document.getElementById("edu").value = ""
+    document.getElementById("screen").value = ""
     }
     </script>    
 </body>

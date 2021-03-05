@@ -4,7 +4,12 @@ var bezoeker={
 };
 if (bezoeker.naam != null) {
    let koptekst = document.querySelector("h2");
+<<<<<<< HEAD
 koptekst.innerHTML = "Welcome ! " + bezoeker.naam ;
+=======
+koptekst.innerHTML = "Welcome dear! " + bezoeker.naam + " to my page" ;
+
+>>>>>>> 9cebc3246af8e68a605c4cbb016b30737f5b6f74
 console.log(bezoeker);
 
 
@@ -14,10 +19,11 @@ if (bezoeker.leeftijd >=18) {
     if (bezoeker.leeftijd <18) {
        koptekst.style.color = 'red';
        }
-        if (bezoeker.leeftijd ==0) {
+        if (bezoeker.leeftijd ==null) {
            koptekst.style.color = 'yellow';
                    }
                }
+<<<<<<< HEAD
 ///snow effect
                var c = document.getElementById('canv'), 
                $ = c.getContext("2d");
@@ -78,3 +84,5 @@ if (bezoeker.leeftijd >=18) {
            
            
            Resources               
+=======
+>>>>>>> 9cebc3246af8e68a605c4cbb016b30737f5b6f74
