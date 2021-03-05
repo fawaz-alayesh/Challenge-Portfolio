@@ -2,19 +2,14 @@ var bezoeker={
     naam : prompt("Type aub uw naam in"),
    leeftijd : prompt("Wat is je leeftijd?"),
 };
+function visitor(){
 if (bezoeker.naam != null) {
    let koptekst = document.querySelector("h2");
-<<<<<<< HEAD
 koptekst.innerHTML = "Welcome ! " + bezoeker.naam ;
-=======
-koptekst.innerHTML = "Welcome dear! " + bezoeker.naam + " to my page" ;
-
->>>>>>> 9cebc3246af8e68a605c4cbb016b30737f5b6f74
 console.log(bezoeker);
 
-
 if (bezoeker.leeftijd >=18) {
-  koptekst.style.color= 'lightgreen';
+  koptekst.style.color= 'green';
    }
     if (bezoeker.leeftijd <18) {
        koptekst.style.color = 'red';
@@ -22,8 +17,23 @@ if (bezoeker.leeftijd >=18) {
         if (bezoeker.leeftijd ==null) {
            koptekst.style.color = 'yellow';
                    }
+            
                }
-<<<<<<< HEAD
+              }
+              visitor();
+               /////// JQuery//////////////////
+               $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+          
+                })
+             });
+             ///////////////////////////////////////
+
+
+
+
 ///snow effect
             /*   var c = document.getElementById('canv'), 
                $ = c.getContext("2d");
@@ -80,9 +90,5 @@ if (bezoeker.leeftijd >=18) {
              c.width = w = window.innerWidth;
              c.height = h = window.innerHeight;
            }, false);*/
-           
-           
-           
-           Resources               
-=======
->>>>>>> 9cebc3246af8e68a605c4cbb016b30737f5b6f74
+                 
+                      
