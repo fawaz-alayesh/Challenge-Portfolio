@@ -452,7 +452,6 @@ footer p:nth-child(2){
     left: 50%;
     bottom: 10px;
     transform: translateX(-50%);
-    box-shadow: 2px 2px 12px rgba(15, 15, 15, 0.548);
 }
 .social-icons i{
     color: #000000;

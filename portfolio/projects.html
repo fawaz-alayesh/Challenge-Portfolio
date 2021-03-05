@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="projects.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
@@ -21,6 +22,8 @@
                 <li><a href="#" class="active">Projects</a></li>    
                 <li><a href="contact.html">Contact</a></li> 
                </ul>
+                <!--bars-------->
+           <div class="toggle"></div>
            </nav>   
            <!--text------->
            <h1><b>Projects</b></h1>
@@ -30,7 +33,6 @@
               <p><b>DAARDOOR HEB IK EEN PAAR PROJECTEN</b></p>
               <p><b>GEMAAKT. HIER ONDER STAAN DEZE</b></p>
               <p><b>PROJECTEN WAAR IK TROTS OP BEN </b></p>
-              
            </div>
            <div class="container">
               <div id="links">
@@ -51,5 +53,14 @@
          <!--copyright------------------------------>
          <p class="copyright">Copyright by Fdeveloper</p> 
         </footer>  
+        <script type="text/javascript" src="JQuery.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.toggle').click(function(){
+          $('.toggle').toggleClass('active')
+          $('nav').toggleClass('active')
+              })
+           });
+           </script>
 </body>
 </html>

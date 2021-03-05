@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
@@ -21,6 +22,8 @@
                 <li><a href="projects.html">Projects</a></li>    
                 <li><a href="#" class="active">Contact</a></li> 
                </ul>
+                <!--bars-------->
+           <div class="toggle"></div>
            </nav>   
            <!--text------->
            <h1><b>Contact</b></h1>
@@ -42,6 +45,16 @@
             <!--copyright------------------------------>
             <p class="copyright">Copyright by Fdeveloper</p> 
            </footer>  
+           <script type="text/javascript" src="JQuery.js"></script>
+            <script type="text/javascript">
+            $(document).ready(function(){
+            $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+
+             })
+            });
+             </script>
 
 </body>
 </html>
