@@ -57,6 +57,11 @@ nav{
     background-color: #ffffff;
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 2);
     padding: 0px 5%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+ 
+
 }
 nav ul{
     display: flex;
