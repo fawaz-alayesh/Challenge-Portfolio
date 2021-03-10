@@ -66,17 +66,7 @@ nav{
  
 
 }
-nav ul{
-    display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
+
 nav ul li a{
     margin: 30px;
     font-family: myriad pro regular;
@@ -494,16 +484,6 @@ h2{
         transform: translateX(-70%);
     }
      
-     ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; 
-  position: sticky;
-  top: 0;
-}
     .text-container{
         top: 46%;
     }
@@ -592,14 +572,7 @@ h2{
         align-items: center;
         z-index: 1;
         display: none;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+  
 }
     nav ul li{
         padding: 10px;
