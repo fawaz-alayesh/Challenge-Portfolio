@@ -54,6 +54,10 @@ padding: 0px 5%;
 nav ul{
 display: flex;
 }
+nav a span{
+    color: rgb(240, 115, 13);
+    font-family: Brush Script MT;
+} 
 nav ul li a{
 margin: 30px;
 font-family: myriad pro regular;
