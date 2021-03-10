@@ -49,7 +49,6 @@ section{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.52);
 }
 
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -58,12 +57,14 @@ nav{
     background-color: #ffffff;
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 2);
     padding: 0px 5%;
- 
 }
+nav a span{
+    color: rgb(240, 115, 13);
+    font-family: Brush Script MT;
+} 
 nav ul{
     display: flex;
 }
-
 nav ul li a{
     margin: 30px;
     font-family: myriad pro regular;
