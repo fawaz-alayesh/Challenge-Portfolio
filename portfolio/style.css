@@ -481,6 +481,7 @@ h2{
         left: 87%;
         transform: translateX(-70%);
     }
+     
     .text-container{
         top: 46%;
     }
@@ -559,7 +560,10 @@ h2{
         padding: 0px;
         background-color: #ebeef4;
         flex-direction: column;
+<<<<<<< HEAD
         position: absolute;
+=======
+>>>>>>> 398892e3555f775618d780d20b575093a61e994f
         left: 0;
         top: 0;
         width: 100%;
@@ -570,7 +574,8 @@ h2{
         align-items: center;
         z-index: 1;
         display: none;
-    }
+  
+}
     nav ul li{
         padding: 10px;
     }
