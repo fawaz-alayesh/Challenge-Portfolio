@@ -23,7 +23,7 @@ text-align: center;
 }
 section{
 width: 100%;
-height: 110vh;
+height: auto;
 background-image: url(header.png);
 background-repeat: no-repeat;
 background-size: cover;
@@ -115,48 +115,63 @@ button :hover::after{
 
 }
 footer{
-  height: 130px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.52);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.52);
+
+}
+footer p{
+    font-family: calibri;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 15px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
 
 }
 .social-icons a{
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e6e3e3;
-  margin: 20px 10px;
-  border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
 }
 .social-icons{
-  display: flex;
-}
-.social-icons i{
-  color: #000000;
-}
-.social-icons a:hover{
-  background-color: #000000;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-  transition: all ease 0.4s;
-}
-.social-icons a:hover i{
-  color: #ffffff;
-  transition: all ease;
+    display: flex;
 }
 .copyright{
-  color:#565555;
-  font-size: 15px;
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
-  font-family: calibri;
+    color:#565555;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+.social-icons i{
+    color: #000000;
+}
+.social-icons a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.4s;
+}
+.social-icons a:hover i{
+    color: #ffffff;
+    transition: all ease;
 }
 @media(max-width:1000px){
   *{

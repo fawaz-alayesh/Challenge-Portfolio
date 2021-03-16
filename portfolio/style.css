@@ -40,7 +40,7 @@ span{
 }
 section{
     width: 100%;
-    height: 110vh;
+    height: 90vh;
     background: url(header.png);
     overflow: hidden;
     background-repeat: no-repeat;
@@ -57,6 +57,7 @@ nav{
     background-color: #ffffff;
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 2);
     padding: 0px 5%;
+    top:20%;
 }
 nav a span{
     color: rgb(240, 115, 13);
@@ -76,6 +77,30 @@ nav ul li a{
 nav a:hover{
     color: #000000;
 }
+.sidenav {
+    width: 107px;
+    position: fixed;
+    top: 55px;
+    left: 91%;
+    border-radius: 10%;
+    background: rgba(238, 238, 238, 0.774);
+    box-shadow: inset 2px 2px 3px 0px rgb(0 0 0);
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 9px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e6750b;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #09e22d;
+  }
+  
 .logo{
     font-family: Brush Script MT;
     color: #000000;
