@@ -82,6 +82,7 @@ nav a:hover{
     position: fixed;
     top: 55px;
     left: 91%;
+    transform: translateX(-18%);
     border-radius: 10%;
     background: rgba(238, 238, 238, 0.774);
     box-shadow: inset 2px 2px 3px 0px rgb(0 0 0);
@@ -670,5 +671,11 @@ h2{
         height: 39px;
 
     }
+    .sidenav {
+        width: 107px;
+        position: fixed;
+        top: 55px;
+        left: 81%;
+      }
 
 }
